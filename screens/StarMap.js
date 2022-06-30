@@ -30,7 +30,7 @@ export default class StarMapScreen extends Component {
                     />
                     <TextInput
                         style={styles.inputStyle}
-                        placeholder="Digite sua latitudee"
+                        placeholder="Digite sua latitude"
                         placeholderTextColor="white"
                         onChangeText={(text) => {
                             this.setState({
